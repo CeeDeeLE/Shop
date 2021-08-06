@@ -1,0 +1,40 @@
+.filter {
+  width: 65rem;
+  height: 3rem;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+}
+.filter label {
+  font-size: 1.2rem;
+}
+.filter__category label,
+.filter__search label,
+.filter__sale label {
+  padding: 0.5rem 1rem 0.5rem 1.5rem;
+}
+.filter__sale input {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin: 0.5rem 1rem;
+}
+.filter__category select {
+  height: 1.5rem;
+  width: 12rem;
+}
+.filter__search input {
+  height: 1.5rem;
+  width: 12rem;
+}
+.filter__search > div {
+  display: flex;
+  align-items: center;
+}
+.filter__search button {
+  padding: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  line-height: 1;
+  margin-left: 0;
+  border-radius: 0;
+}
